@@ -1,0 +1,12 @@
+/******************************************************************/
+/***************Description of the time probelm********************/
+/******************************************************************/
+
+The explication of the problem is base on FloatProblemLog.txt file. In order to do the syncronisation we need to get the current time. To do that we had the idea of using clock_time function and to convert the clock information to a more userfriendly data we use the following code :
+
+float f = clock_time()/(float)CLOCK_SECOND;
+int32_t d1 = (int32_t)f; // Get integer part
+float f2 = f - d1;     // Get fractional part
+uint32_t d2 = (uint32_t)(f2 * 1000);   
+
+The problem is that the formula uses two floats. These floats add a time error, which is incremented every sample.
