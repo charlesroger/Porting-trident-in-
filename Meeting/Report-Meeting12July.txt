@@ -1,0 +1,37 @@
+// Title : July 12th 2016, Meeting report
+
+
+// People present at the meeting : Ramona Marfievici, Timofei Istomin, Dorian Lao, Charles Roger
+
+// Subject : Q&A and discussion around the synchronisation process of Trident, the current algorithm and a first look at the possible alternate solutions in
+// exporting to Contiki.
+
+1) THE INTERN'S QUESTIONS
+
+Q : What is the role of the iface variable ?
+	location : /home/charles/trident/nesc/tests/logSenderC.nc
+
+A : We use this variable to determine how we make the download : either via Serial or via Radio. iface can be set to 0 or 1.
+
+Q :	Why does the node send in broadcast after the first received message from the master ?
+
+A : All the nodes are repeaters so they all send in broadcast the reftime of the master. This is necessary if we are in a multi-hop configuration. For the moment the number of retries for the syncronisation is 5.
+
+2) DISCUSSION ABOUT HOW WE CAN IMPLEMENT THE SYNCHRONISATION IN CONTIKI
+
+The last question of the interns was if they need to implement the same synchronisation process than in TinyOS version of trident. We came up with a list of potential solutions to investigate.
+
+	1) Dig a litle bit in order to found if someone already succeeded in implementing the syncronisation of a network in Contiki
+		- the guys from ETH who worked with the glossy guys
+
+	2) Measure using Cooja the time of sending and the time of receiving of packets
+
+		t0-------------t1------------t2
+
+	At t0 the master call the send function, at t1 the master send and the node receive the first byte or the SFD, at t2 the master exits the sending function and the node calls 		the callback function. We need to access the time duration beetwen t0 and t1 but also between t1 and t2.
+
+	3) Compare the three following solutions for the syncronisation problem in term of reliability and accuracy
+		
+		i) Work with hardware time (We can only use one timer of this type at a time)
+		ii) Work with etimer and ctimer (These timers have a precision of approximately 100 ms) : we need to check if this precision is acceptable
+		iii) See if sending and receiving functions are blocking timers or program execution in any way.

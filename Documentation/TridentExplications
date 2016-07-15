@@ -1,0 +1,640 @@
+//
+//               Explication of Trident
+//               internishp  summer 2016 
+//               Supervisor : Ramona Marvieficci
+//               Writer : Charles Roger Dorian Lao
+//
+/*The purpose of this document is to explain the process of trident and his timeline. 
+In this file we will explain all the functions called when we use trident, so the function will be explain following a chronological order*/
+
+//--------------------Wake up-----------------------------------//
+//Usefull files : 
+StarterC.nc : 		/home/charles/trident/nesc/tests
+Timer.h :		/home/charles/tinyos/tos/lib/timer
+Trident.h :		/home/charles/trident/nesc/tests
+Messages.h :		/home/charles/trident/nesc/tests
+UserButton.h :		/home/charles/tinyos/tos/platforms/telosb
+
+//WakeupReceive.receive event
+START WAKEUPRECEIVE.RECEIVE ALGO
+  if the node are sleeping
+    START IF
+      launch resetMote function (we just put WDTCTL at 0 and now the 
+      node are idle)
+    END IF
+//--------------------Start an experiment------------------------//
+//Usefull files : 
+StarterC.nc : 		/home/charles/trident/nesc/tests
+Timer.h :		/home/charles/tinyos/tos/lib/timer
+Trident.h :		/home/charles/trident/nesc/tests
+Messages.h :		/home/charles/trident/nesc/tests
+UserButton.h :		/home/charles/tinyos/tos/platforms/telosb
+ExpConfigC.nc :		/home/charles/trident/nesc/tests
+EperimentC.nc :		/home/charles/trident/nesc/tests
+
+//StartStopReceive.receive event
+There is one receiver function for start and stop function, in that way we just have
+to compare with and enumeration of commands. In this case the three possible commands 
+are : CMD_MASTER_START, CMD_MASTER_QUICKTEST, CMD_MASTER_STOP.
+
+We also need to know the state of the nodes. For that there is an other enumeration 
+with the possible states. In our case the two possible states are : ST_IDLE, ST_EXPERIMENT. 
+In ST_IDLE state the node is waitind a command, take attention in this state the nodes 
+aren't in sleep mode. In ST_EXPERIMENT the node are experimenting.
+
+START STARTSTOPRECEIVE.RECEIVE ALGO
+  if we are the master(verification with the ID)
+  START IF
+    new StartStop command
+    if there is a CMD_MASTER_START or a CMD_MASTER_QUICKTEST 
+    command and the node are in ST_IDLE
+    START IF
+      launch start_exps function
+    END IF
+    else if there is a CMD_MASTER_STOP and the node are in 
+    ST_EXPERIMENT
+    START IF
+      launch stop_exps function
+    END IF
+  END IF
+END ALGO
+
+//start_exps  function
+In this function we launch the experiment we don't want to receive 
+other experiment or to download the data
+
+START START_EXPS ALGO
+  the control of the log is stop
+  the receive of experiments is stop
+  the node are in ST_DISSEMINATING state
+  if the previous command wasn't quicktest(quicktest==0)
+  START IF
+    call EXPConfig.prepareNewRun
+  END IF
+  else 
+  START ELSE
+    we send the experiment configuration
+    launch disseminate_current_run function
+  END ELSE
+END ALGO
+
+//ExpConfig.prepareNewRun command
+START EXPCONFIG.PREPARENEWRUN ALGO
+  put the password of the experiment at 0
+  if we succed to open the log
+  START IF
+    read the expression descriptor in the log
+  END IF
+  else
+  START ELSE
+    launch signalNewRunFail function
+  END ELSE
+END ALGO
+
+//ConfigStorage.readDone event
+START CONFIGSTORAGE.READDONE ALGO
+  if the reading adresse is the experiment descriptor adress
+  START IF
+    if the buffer isn't ampty and the read siwe correspond to an 
+    experiment descriptor and the password match with and 
+    experiement
+    START IF
+      the sequence number is inisialize to 0
+      if the run id of the experiment is not = 255 (max run number)
+      START IF
+        we add 1 to the run id
+        if we can store the experiment descriptore in the log
+        START IF
+          writing semaphore is set at TRUE
+        END IF
+      END IF
+    END IF
+    launch ExpConfig.expParams event
+  END IF
+  else
+  START ELSE
+    if the buffer isn't ampty and the read size match with 
+    a roundStartMSG
+    START IF
+      we create a new RoundStartMsg of buf size
+      we put on roundseqn of this message the actual sequence 
+      number
+      we put on config id of this message the actual config id
+      we add 1 to the current round seqn
+      we go onExpConfig.nextTestParams with succes argument
+    END IF
+    else
+    START ELSE
+      we go onExpConfig.nextTestParams with fail argument
+    END ELSE
+END ALGO
+      
+//ExpConfig.expParams event
+START EXPCONFIG.EXPPARAMS event
+  if the experiment descriptor passed as argument of the signal
+  is ampty
+  START IF
+    we give to te experiment descriptor define in global as static
+    the experiment passes as argument
+    we call ExpConfig.getNextTest command
+    we put to the runid of the experiment descriptor passed as 
+    argument the current run id
+  END IF
+  else
+  START ELSE
+    we launche the LogSenderControl.start command
+    we launche the ConfigReceiverControl.start command
+    the node go in ST_IDLE state
+  END ELSE
+END ALGO
+
+//ExpConfig.getNextTest command
+START EXPCONFIG.GETNEXTTEST ALGO
+  if the sequence number of the next round is inferior to the
+  round sequence number of the experiment descriptor * by the 
+  number of repetition of this last one
+  START IF
+    we read in log the descriptor of the next test
+  END IF
+  else
+  START ELSE
+  fail
+  END ELSE
+END ALGO
+
+//ExpConfig.nextTestParams event
+START EXPCONFIG.NEXTTESTPARAMS ALGO
+  if the status passed as parameters is SUCCES
+  START IF
+    launch disseminate_current_run function
+  END IF
+  else
+  START ELSE
+    if we ask the node to go in low power mode
+    START IF
+      we order to go in this mode
+      we call the dissemination 
+    END IF
+    else
+    START ELSE
+      call LogSenderControl.start command
+      call ConfigReceiverControl.start command
+      the node go to ST_IDLE state
+    END ELSE
+  END ELSE
+END ALGO
+
+//disseminate_current_run function
+START DISSEMINATE_CURRENT_RUN ALGO
+  In start msg define in globale we set the type as DISS_START
+  In start msg we set the run_id as the current run_ID
+  call Dissemination.start command with startmsg as argument
+END ALGO
+
+//Dissemination.start command
+This function and the following are very importante because they
+allowed the synchronisation to append. The main idea is that the
+master send is reference time to all the node and all node know
+when she can send thanks to the formula define in the trident 
+paper
+
+To understand this function and the following we first need to 
+explain some variable define in the begining of the source code
+
+SLOT_DURATION_MS 20 : it's the time between two samples
+SLOT_DURATION (SLOT_DURATION_MS*32L) : it's the slot duration for 
+a 32khz timer
+DISS_DURATION (SEND_PERIOD*NUM_REPEAT)
+MIN_TIMER_DELAY SLOT_DURATION
+MY_OFFSET (TOS_NODE_ID*SLOT_DURATION) : it's the offset for each 
+node as you can see this offset depend on the node id. The master
+have id = 0 its why he can send his time as a reference (the 
+master offset is 0)
+
+There is also an very important function 
+TimerSend.startPeriodicAt(A,B) : A is like the reference time or 
+the base time and B is the period of the timer
+
+START DISSEMINATION.START ALGO
+  if the busy semaphore is true
+  START IF
+    return EBUSY
+  END IF
+  else
+  START IF
+    we create a new roundStartMsg
+    we set busy semaphore at true
+    the message previously initialize is define with the message
+    passed as argument payload
+    we copy the argument in the message previously declared
+    we set the power of the transmission
+    we set the reference time at local time - MY_OFFSET
+    we set the send timer with ref+MY_OFFSET time and the
+    SEND_PERIOD. In that way all nodes is sincronyse on the master 
+    reference time and send to different time
+    we tell to the TimerDone to wake up after DISS_DURATION from
+    reftime
+    we go on signalRecv(), the event is ampty it's just to send
+    an append information
+  END IF
+END ALGO
+
+//TimerDone.fired event
+START TIMERDONE.FIRED ALGO
+  we set the busy semaphore at FALSE
+  we go in Dissemination.done event for launching the experiment
+  we stop the sender timer
+END ALGO
+
+//TimerSend.fired event
+START TIMERSEND.FIRE ALGO
+  we get the actual time
+  if reftime+DISS_DURATION-now < DISS_DURATION (now > reftime)
+  START IF
+    we decal all the nodes
+  END IF
+END ALGO
+
+//Dissemination.done event
+START DISSEMINATION.DONE ALGO
+  if the startmsg type is DISS_START
+  START IF
+    we set the communication chanel
+    we resyncronize
+    we start for one time TimerStartExp
+  END IF
+  else if the startmsg type is DISS_STOP ALGO
+  START ELSE IF
+    we stop the experiment
+    we set the communication channel
+    we resynchronize
+    we set he log control as START
+    we set the CongifReicever as START
+  END ELSE IF
+  else if the starmsg type is DISS_GO_LPL#
+  START ELSE IF
+  call LowPowerListening.setWakeupInterval command
+  END ELSE IF
+END ALGO
+
+//TimerStartExp.fired event
+START TIMERSTARTEXP.FIRED EVENT ALGO
+  call Experiment.start command
+  the nodes go in ST_EXPERIMENT state
+END ALGO
+
+//Experiment.start command
+SART EXPERIMENT.START COMMAND ALGO
+  we set the global config id with the msg passed as parameters
+  we set the run_id  with the msg passed as parameters
+  we set the round_seqn with the msg passed as parameters
+  we set the nr_packets with the msg num_burts * msg burst_size
+  we set the txPower with the msg passed as parameters
+  //leds = msg->flags & FLAG_LEDS;
+  //ccaEnabled = msg->flags & FLAG_CCA;
+  //log_statistics = msg->flags & FLAG_LOG_STATS;
+  //log_messages = msg->flags & FLAG_LOG_MSG;
+  //env_log_interval = msg->env_log_interval * 1024;
+  //burst_imi = msg->burst_imi;
+  we set the global num_senders in colling count_ones function
+  we set the global timeslot with the msg passed as parameters
+  we set the global interval as timeslot*num_senders
+  we set the global senderFunction in colling is_one function 
+  with msg->sender and the node id
+  we set the global listenerFunction in colling is_one function
+  with msg->listeners and the node id
+  if senderFunction !=0
+  START IF
+    we set the glob my-order in calling count_ones with 
+    msg->senders and the node id
+  END IF
+  else
+  START ELSE
+    we set my_order at 0
+  END ELSE
+  we set the originalburst with the msg burst_size
+  we set the bursttosend with the msg original burst
+  we set the tx_rec.record_type as LOG_RECORD_MSG_TX
+  we set the rx_rec.record_type = LOG_RECORD_MSG_RX
+  we set the env_rec.record_type = LOG_RECORD_TEMP_HUMID
+  we set the packet_seqn at 0
+  we set the avgTemperature at 0
+  we set the avgHumidity at 0
+  we set the numMeasurement at 0
+  we set the initBattery at 0
+  we read the battery voltage
+  We set the start_time (of the experiment) in calling 
+  TimerExperiment.getNow command
+  if the global my_order == 0
+  START IF
+    we set skipFirstTime semaphore as FALSE
+    we call TimerExperiment.startPeriodicAt 
+  END IF  
+  else
+  START ELSE
+    we set skipFirstTime semaphore as TRUE
+    //start_time += timeslot*my_order;
+    //call TimerExperiment.startPeriodicAt
+    //(start_time-interval, interval);
+  END ELSE
+  we call TimerEnd.startOneShot commande to allow all the network
+  to send
+  we set all the data at 0
+  we set global env_log_last at start_time -env_log_interval
+  we store in log th record_type, the config_id, the run_id,
+  the round_seqn and node_id of the experiment
+END ALGO
+
+//count_ones function
+this function transform a number in binary an count the number of
+one in this converted number
+START COUNTE_ONES ALGO
+  
+  we create three variables c,i,b
+
+  for i = 0 to inferior of the num_bits 
+  passed as second argument of this function. By step of one
+  START FOR
+    we set b at i/8
+    we add to c (arr[b]>>(i58))&1
+  END FOR
+  we return c
+END ALGO
+
+//is_one function
+START IS_ONE ALGO
+  arr and bit is given in parameters
+  we return arr[bit/8]>>(bit%8)&1
+END ALGO
+
+//Receive.receive event
+This event represent the case when a node is sampling and she 
+receive something. It's in this function that we get the RSSI 
+the LQI and the noise.
+
+START RECEIVE.RECEIVE ALGO
+  we create a new expmsg
+  if we are neither running nor listening
+  START IF
+    we return the reveived message 
+  END IF
+  if we the current round_seqn or run_id or config_id is different 
+  from the expmsg round_seqn, run_id, config_id
+  START IF
+    we set status at RX_WRONG_ROUND_SEQN or RX_WRONG_ROUND_SEQN
+    or RX_WRONG_CONFIG_ID depending of the error 
+  END IF 
+  if status == 0
+  START IF
+  we set the global last_nodeid with the exp_message previously
+  declared
+  we add to the case of rx_packets_stats define by the 
+  expmsg->node_id one 
+  we add to the case of rx_packets_lqi define by the 
+  expmsg->node_id the value of the LQI for the received message
+//take attention the RSSI is negative we need to converte the value
+//in negative
+  we converte the RSSI in negative integer
+  we reed the value of the RSSI for the received message. In this
+  last one we need to substrate 45 to convert in db
+  we add to the case of rx_packets_rssi define by the 
+  expmsg->node_id the value of the RSSI for the received message
+  we set last_nodeid with expmsg declared previously
+  we set rx_rec.msg_seqn with the expmsg
+  we set rx_rec.node_id with the expmsg
+  we set rx_rec.rssi with the rssi measure for the received message
+  we set rx_rec.lqi with the LQI measure for the received message
+  we measure the noise
+  END IF 
+  else
+  START ELSE
+  we create a new LogRecordRxError called r
+  we set r.record_type with the current LOG_RECORD_MSG_RX_ERROR
+  we set r.node_id with the exp message 
+  we set r.msg_seqn with the exp message packet_seqn
+  we set r.rssi with the rssi measure for the received message
+  we set set r.lqi with the lqi measure for the received mesage
+  we set r.trident_status with the current status
+  we store r in the log
+  END ELSE
+  we return the received message
+END ALGO
+
+// fix_statistics function
+START FIX_STATISTICS ALGO
+  we create a new LogRecordStats and i integer
+  for i go from 0 to the number max of node by step of 1
+  START FOR
+    if there is at least one sample
+    START IF
+      we set bt_msg.rx_packets[i] at rx_packets_stats[i]. bt_msg is
+      the message we will send
+      we set bt_msg.rx_rssi[i] at 
+      (rx_packets_rssi[i]/rx_packets_stats[i]). It is the average 
+      we devide by the number of samples
+      we set bt_msg.rx_lqi[i] at 
+      (rx_packets_lqi[i]/rx_packets_stats[i])
+      we set bt_msg.rx_noise[i] at 
+      (rx_packets_noise[i]/rx_packets_stats[i])
+   END IF
+   else
+   START ELSE
+     we set bt_msg.rx_packets[i] at 0
+     we set bt_msg.rx_rssi[i] at 0
+     we set bt_msg.rx_lqi[i] at 0
+     we set bt_msg.rx_noise[i] at 0
+   END ELSE 
+   we set bt_msg.avgTemperature with the current average of   
+   temperature
+   we set bt_msg.avgHumidity with the current average of 
+   humidity
+   we set bt_msg.initBattery with the current value of 
+   initBattery
+   we set bt_msg.endBattery with the current value of 
+   endBattery
+   we set bt_msg.record_type with the current 
+   LOG_RECORD_ROUND_STATS
+   if we can send the statistics in the log
+   START IF
+     we write the statistics in the log
+   END IF
+  END FOR
+END ALGO
+
+//Send_probe
+START SEND_PROBE ALGO
+  Loads a payload to attach it to the message about to be sent
+  Records the last tick of timer TimerExperiment
+
+  Set the node_id member of the message to TOS_NODE_ID
+  Set the round_sequence_number member of the message to round_seqn
+  Set the config_id member of the message to config_id
+  Set the run_id member of the message to run_id
+  Set the packet_sequence_number member of the message to 
+  packet_seqn
+  Set the battery_level member of the message to initBattery
+  if the boolean senderFunction was set up
+  START IF
+    Power level of message tramsmission is set at the chosen
+    power level
+    Message is sent using broadcast, a process in case of error
+    is used
+    A log is written specifying :
+	- The log type : error
+	- The sequence number of the failed to deliver message
+        - The current status of Trident
+        - Tos status ?
+    FlashLogger write is called to achieve the writing
+    if the sending consists in a burst
+    START IF
+      Starts a Burst timer for a single sending
+    END IF
+    Increments the sequence number of packet                      
+  END IF
+END ALGO
+
+//TimerExperimentBurst.fired event
+START TIMEREXPERIMENTBURST.FIRED algo
+  if the experiment is not running 
+  START IF
+    returns
+  END IF
+  The number of bursts too send is decremented
+  A call to send probe to send the rest is made
+END ALGO
+
+//--------------------Stop an experiment------------------------//
+//Usefull files : 
+StarterC.nc : 		/home/charles/trident/nesc/tests
+Timer.h :		/home/charles/tinyos/tos/lib/timer
+Trident.h :		/home/charles/trident/nesc/tests
+Messages.h :		/home/charles/trident/nesc/tests
+UserButton.h :		/home/charles/tinyos/tos/platforms/telosb
+ExpConfigC.nc :		/home/charles/trident/nesc/tests
+EperimentC.nc :		/home/charles/trident/nesc/tests
+
+This part is why we push the stop experiment button on the GUI
+on the function call in this part are the same for starting an 
+experiment because there is only one receiver for start and stop
+request>
+
+//StartStopReqReceive.receive event 
+we dont explain here this function because she is already explain
+in the start experimentation part
+
+//Stop_exps function
+START STOP EXPS ALGO
+  The messsage about to be disseminated is set to be a 
+  DISS_STOP message
+  Experiment.stop is called to stop the current experiment
+  Dissemination.start is called to spread the message
+  set the current state to ST_DISSEMINATING
+END ALGO
+
+//Experiment.stop command
+START EXPERIMENT.STOP ALGO
+  Stops the TimerExperiment timer
+  Stops TimerExperimentBurst timer
+  Stops TimerEnd timer
+  Updates the current running boolean to false
+END ALGO
+
+//Dissemination.start command 
+we dont explain here this function because she is already explain
+in the start experimentation part
+
+//TimerDone.fired event 
+we dont explain here this function because she is already explain
+in the start experimentation part
+
+//Dissemination.done event 
+we dont explain here this function because she is already explain
+in the start experimentation part
+
+//--------------Download and erase an experiment-----------------//
+//Usefull files : 
+StarterC.nc : 		/home/charles/trident/nesc/tests
+Timer.h :		/home/charles/tinyos/tos/lib/timer
+Trident.h :		/home/charles/trident/nesc/tests
+Messages.h :		/home/charles/trident/nesc/tests
+UserButton.h :		/home/charles/tinyos/tos/platforms/telosb
+ExpConfigC.nc :		/home/charles/trident/nesc/tests
+EperimentC.nc :		/home/charles/trident/nesc/tests
+LogSenderC.nc : 	/home/charles/trident/nesc/tests
+
+This part is very important because we eplain how the download 
+and the erase is handle in trident
+
+//ReceiveDlReq.receive
+START RECEIVEDLREQ ALGO
+  Checks the intergrity of the message, the enabled boolean
+  if a download session is active, stops it via stop boolean
+  START IF
+    om the message, stores data-size, volume_id, iface, max
+    numbers of packets, updates the stop and session_active 
+    booleans
+    Gets the source of the received message
+    Fills memory with byte 0
+    Compares the requested data size to the maximum supported
+    size
+    if superior
+    START IF
+      Loads the payload datapkt, checks the output if it is NULL
+      Initialize the parameters with a session id, a sequence
+      number
+//why 255 ?
+      Gets the starting cookie from the message and calls for a
+      seek on this cookie
+    END IF
+  END IF 
+
+//LogRead.seekDone event 
+we dont explain here this function because she is already explain
+in the start experimentation part
+
+//LogRead.readDone event 
+we dont explain here this function because she is already explain
+in the start experimentation part
+
+//sendData function
+START SENDDATA ALGO
+  Sets up a number of retries and acknowledgements if dealing
+  by radio
+  calls SendLogData with the source and the message built
+
+//SendLogData.sendDone event 
+we dont explain here this function because she is already explain
+in the start experimentation part
+
+//ReceiveEraseReq.receive event
+START RECEIVEERASEREQ.RECEIVE ALGO
+  Makes sure the current mote is not busy downloading for
+  example (booleans)
+  From the message, stores volume_id, iface, updates the stop
+  and session_active booleans
+  Gets the source of the received message
+  Starts erasing with LogWrite.erase
+END ALGO
+
+//void LogWrite.eraseDone event
+START LOGWRITE ERASEDONE ALGO	
+  Initializes a message using a payload, and writes
+  storage_id and a status in it.
+  Sets up a number of retries and acknowledgements if dealing
+  by radio
+  Sends the confirmation of erase to the gateway
+  The boolean session_active is set to FALSE
+END ALGO
+
+
+
+
+
+
+
+
+
+
+
+
+
