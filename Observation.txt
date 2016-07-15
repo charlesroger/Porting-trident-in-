@@ -1,0 +1,18 @@
+/******************************************************************/
+/****************Observations for the three timers*****************/
+/******************************************************************/
+
+//Intern : Dorian LAO, Charles ROGER
+//Supervisor : Ramona MARFIEVICI	
+
+We can observe that for each timer(ctimer,etimer,rtimer) the sending time for one packet is the same (1500us). The time sending for a message is 120ms approximatively so Ctimer and Etimer is good for syncronisation and more simple than Rtimer. Furthermore this time is shorter than the turn on/off radio duration. 
+
+If we send a structure or just a char there is no influence in the sending or receiving duration>
+
+We think that the Rtimer should be avoid because we can use only one instance at time and it will be very complicated to synchronize the network with only one timer.
+
+Perhaps more than the timer, the more influent stuff is the radio module ?
+
+
+
+
