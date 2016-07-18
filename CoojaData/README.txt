@@ -7,7 +7,7 @@ General purpose : In this folder you can find the C sources requires for measuri
 In each file you will find 
   -> The C souces file : example-broadcastXtimer.c
   -> The exported time line file of cooja
-  -> The python file for parsing TestTime
+  -> The python file "traitement.py" he call the python file of each timer and compute the average, the min, the max and the standard deviation
   -> The file for the reciver time : ProperDataReceiver.txt
   -> The file for the Sender time : ProperDataSender.txt
   

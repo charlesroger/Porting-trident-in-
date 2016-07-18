@@ -1,0 +1,18 @@
+/***********Ctimer****************/
+->	Reception
+ Time max = 1540 Time min = 1536 Time average = 1536 Standard deviation = 0.071888515469
+/***********Ctimer****************/
+->	Sending
+ Time max = 1540 Time min = 1536 Time average = 1536 Standard deviation = 0.071888515469
+/***********Etimer****************/
+->	Reception
+ Time max = 1540 Time min = 1537 Time average = 1539 Standard deviation = 0.707732539522
+/***********Etimer****************/
+->	Sending
+ Time max = 1540 Time min = 1537 Time average = 1539 Standard deviation = 0.707732539522
+/***********Rtimer****************/
+->	Reception
+ Time max = 1545 Time min = 1532 Time average = 1533 Standard deviation = 1.83211190052
+/***********Rtimer****************/
+->	Sending
+ Time max = 1545 Time min = 1532 Time average = 1533 Standard deviation = 1.83211190052
