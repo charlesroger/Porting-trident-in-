@@ -6,3 +6,4 @@ july 15TH 2016 - Creation of the git
 july 15TH 2016 - We add the measurement campaign for Ctimer,Etimer and Real timer in one folder name TimeMesurement
 july 15TH 2016 - We add the description of the float problem
 july 15TH 2016 - We add Meeting folder(for meeting report) and Documentation folder
+july 18TH 2016 - Message.h header added
