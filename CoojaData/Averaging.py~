@@ -1,5 +1,6 @@
 import math
-from Ctimer import *
+
+
 f_CReceiver = open("/home/charles/Desktop/CoojaData/Ctimer/ProperDataReceiver.txt", "r")
 f_CSender = open("/home/charles/Desktop/CoojaData/Ctimer/ProperDataSender.txt")
 f_EReceiver = open ("/home/charles/Desktop/CoojaData/Etimer/ProperDataReceiver.txt")
@@ -45,7 +46,8 @@ f_CReceiver.seek(0)
 for ligne in f_CReceiver:
 	line = ligne.split(" ")
 	data = int(line[4])
-	standardDeviationCtimerReceiver = standardDeviationCtimerReceiver + math.pow((data-average_CReceiver),2)
+	standardDeviationCtimerReceiver = math.pow(data - average_CReceiver,2)
+	standardDeviationCtimerReceiver += standardDeviationCtimerReceiver 
 	counter = counter + 1
 standardDeviationCtimerReceiver = standardDeviationCtimerReceiver/counter
 standardDeviationCtimerReceiver = math.sqrt(standardDeviationCtimerReceiver)
@@ -74,7 +76,8 @@ standardDeviationCtimerSender = 0
 for ligne in f_CSender:
 	line = ligne.split(" ")
 	data = int(line[4])
-	standardDeviationCtimerSender = standardDeviationCtimerSender + math.pow(( data-average_CSender ),2)
+	standardDeviationCtimerReceiver = math.pow(data - average_CReceiver,2)
+	standardDeviationCtimerReceiver += standardDeviationCtimerReceiver
 	counter = counter + 1
 standardDeviationCtimerSender = standardDeviationCtimerSender/counter 
 standardDeviationCtimerReceiver = math.sqrt(standardDeviationCtimerReceiver)
@@ -103,7 +106,8 @@ f_EReceiver.seek(0)
 for ligne in f_EReceiver:
 	line = ligne.split(" ")
 	data = int(line[4])
-	standardDeviationEtimerReceiver = standardDeviationEtimerReceiver + math.pow((data-average_EReceiver),2)
+	standardDeviationCtimerReceiver = math.pow(data - average_CReceiver,2)
+	standardDeviationCtimerReceiver += standardDeviationCtimerReceiver
 	counter = counter + 1
 standardDeviationEtimerReceiver = standardDeviationEtimerReceiver/counter
 standardDeviationEtimerReceiver = math.sqrt(standardDeviationEtimerReceiver)
@@ -132,7 +136,8 @@ f_ESender.seek(0)
 for ligne in f_ESender:
 	line = ligne.split(" ")
 	data = int(line[4])
-	standardDeviationEtimerSender = standardDeviationEtimerSender + math.pow(( data-average_ESender ),2)
+	standardDeviationCtimerReceiver = math.pow(data - average_CReceiver,2)
+	standardDeviationCtimerReceiver += standardDeviationCtimerReceiver
 	counter = counter + 1
 standardDeviationEtimerSender = standardDeviationEtimerSender/counter
 standardDeviationEtimerSender = math.sqrt(standardDeviationEtimerSender)
@@ -158,7 +163,8 @@ f_RReceiver.seek(0)
 for ligne in f_RReceiver:
 	line = ligne.split(" ")
 	data = int(line[4])
-	standardDeviationRtimerReceiver = standardDeviationRtimerReceiver + math.pow((data-average_RReceiver),2)
+	standardDeviationCtimerReceiver = math.pow(data - average_CReceiver,2)
+	standardDeviationCtimerReceiver += standardDeviationCtimerReceiver
 	counter = counter + 1
 standardDeviationRtimerReceiver = standardDeviationRtimerReceiver/counter 
 standardDeviationRtimerReceiver = math.sqrt(standardDeviationRtimerReceiver)
@@ -185,7 +191,8 @@ f_RSender.seek(0)
 for ligne in f_RSender:
 	line = ligne.split(" ")
 	data = int(line[4])
-	standardDeviationRtimerSender = standardDeviationRtimerSender + math.pow(( data-average_RSender ),2)
+	standardDeviationCtimerReceiver = math.pow(data - average_CReceiver,2)
+	standardDeviationCtimerReceiver += standardDeviationCtimerReceiver
 	counter = counter + 1
 standardDeviationRtimerSender = standardDeviationRtimerSender/counter
 standardDeviationRtimerSender = math.sqrt(standardDeviationRtimerSender)
