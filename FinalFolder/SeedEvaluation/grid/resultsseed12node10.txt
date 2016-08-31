@@ -1,0 +1,146 @@
+/*****************seed12node10********************/
+
+
+New round
+The delay is  	0 minutes	0 seconde	64 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	-1 ms
+The delay is  	0 minutes	0 seconde	45 ms
+The delay is  	0 minutes	0 seconde	-5 ms
+The delay is  	0 minutes	0 seconde	44 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	46 ms
+The delay is  	0 minutes	0 seconde	98 ms
+
+The average delay is 0.0 seconde 31.4444444444 ms
+
+The PDR is : 90.0
+
+we miss 1 node 
+
+
+New round
+The delay is  	0 minutes	0 seconde	9 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	-1 ms
+The delay is  	0 minutes	0 seconde	-2 ms
+The delay is  	0 minutes	0 seconde	-5 ms
+The delay is  	0 minutes	0 seconde	-3 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	22 ms
+The delay is  	0 minutes	0 seconde	27 ms
+
+The average delay is 0.0 seconde 7.82716049383 ms
+
+The PDR is : 90.0
+
+we miss 1 node 
+
+
+New round
+The delay is  	0 minutes	0 seconde	48 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	-1 ms
+The delay is  	0 minutes	0 seconde	29 ms
+The delay is  	0 minutes	0 seconde	-5 ms
+The delay is  	0 minutes	0 seconde	28 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	31 ms
+The delay is  	0 minutes	0 seconde	35 ms
+
+The average delay is 0.0 seconde 18.3141289438 ms
+
+The PDR is : 90.0
+
+we miss 1 node 
+
+
+New round
+The delay is  	0 minutes	0 seconde	9 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	-5 ms
+The delay is  	0 minutes	0 seconde	-1 ms
+The delay is  	0 minutes	0 seconde	-2 ms
+The delay is  	0 minutes	0 seconde	-5 ms
+The delay is  	0 minutes	0 seconde	44 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	69 ms
+The delay is  	0 minutes	0 seconde	113 ms
+
+The average delay is 0.0 seconde 23.2314128944 ms
+
+The PDR is : 100.0
+
+we miss 0 node 
+
+
+New round
+The delay is  	0 minutes	0 seconde	33 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	65 ms
+The delay is  	0 minutes	0 seconde	-1 ms
+The delay is  	0 minutes	0 seconde	45 ms
+The delay is  	0 minutes	0 seconde	88 ms
+The delay is  	0 minutes	0 seconde	13 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	15 ms
+The delay is  	0 minutes	0 seconde	66 ms
+
+The average delay is 0.0 seconde 33.9231412894 ms
+
+The PDR is : 100.0
+
+we miss 0 node 
+
+
+New round
+The delay is  	0 minutes	0 seconde	56 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	34 ms
+The delay is  	0 minutes	0 seconde	-1 ms
+The delay is  	0 minutes	0 seconde	37 ms
+The delay is  	0 minutes	0 seconde	-5 ms
+The delay is  	0 minutes	0 seconde	52 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	54 ms
+The delay is  	0 minutes	0 seconde	113 ms
+
+The average delay is 0.0 seconde 36.5923141289 ms
+
+The PDR is : 100.0
+
+we miss 0 node 
+
+
+New round
+The delay is  	0 minutes	0 seconde	79 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	-1 ms
+The delay is  	0 minutes	0 seconde	60 ms
+The delay is  	0 minutes	0 seconde	-5 ms
+The delay is  	0 minutes	0 seconde	60 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	62 ms
+The delay is  	0 minutes	0 seconde	129 ms
+
+The average delay is 0.0 seconde 45.8435904588 ms
+
+The PDR is : 90.0
+
+we miss 1 node 
+
+
+New round
+The delay is  	0 minutes	0 seconde	9 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	-1 ms
+The delay is  	0 minutes	0 seconde	22 ms
+The delay is  	0 minutes	0 seconde	-5 ms
+The delay is  	0 minutes	0 seconde	36 ms
+The delay is  	0 minutes	0 seconde	-4 ms
+The delay is  	0 minutes	0 seconde	-1 ms
+The delay is  	0 minutes	0 seconde	82 ms
+
+/////////////////////////Average of the simulation////////////////////////
+Average Delay = 0.0 seconde 24.6470240817 ms
+Average PDR = 82.5

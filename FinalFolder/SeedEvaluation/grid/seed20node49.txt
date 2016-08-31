@@ -1,0 +1,545 @@
+00:00.292	ID:45	Rime started with address 45.0
+00:00.302	ID:45	MAC 2d:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 45.
+00:00.312	ID:45	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.319	ID:45	uIP started with IP address 172.16.45.0
+00:00.321	ID:45	Starting 'Broadcast example'
+00:00.368	ID:10	Rime started with address 10.0
+00:00.376	ID:29	Rime started with address 29.0
+00:00.378	ID:10	MAC 0a:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 10.
+00:00.386	ID:29	MAC 1d:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 29.
+00:00.388	ID:17	Rime started with address 17.0
+00:00.388	ID:10	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.394	ID:10	uIP started with IP address 172.16.10.0
+00:00.395	ID:29	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.397	ID:10	Starting 'Broadcast example'
+00:00.397	ID:17	MAC 11:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 17.
+00:00.402	ID:29	uIP started with IP address 172.16.29.0
+00:00.404	ID:29	Starting 'Broadcast example'
+00:00.405	ID:24	Rime started with address 24.0
+00:00.407	ID:17	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.407	ID:6	Rime started with address 6.0
+00:00.408	ID:8	Rime started with address 8.0
+00:00.414	ID:17	uIP started with IP address 172.16.17.0
+00:00.415	ID:24	MAC 18:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 24.
+00:00.416	ID:17	Starting 'Broadcast example'
+00:00.417	ID:6	MAC 06:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 6.
+00:00.418	ID:8	MAC 08:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 8.
+00:00.425	ID:24	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.427	ID:6	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.427	ID:8	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.431	ID:24	uIP started with IP address 172.16.24.0
+00:00.433	ID:6	uIP started with IP address 172.16.6.0
+00:00.434	ID:24	Starting 'Broadcast example'
+00:00.434	ID:8	uIP started with IP address 172.16.8.0
+00:00.435	ID:6	Starting 'Broadcast example'
+00:00.436	ID:8	Starting 'Broadcast example'
+00:00.448	ID:5	Rime started with address 5.0
+00:00.458	ID:5	MAC 05:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 5.
+00:00.468	ID:5	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.471	ID:40	Rime started with address 40.0
+00:00.473	ID:42	Rime started with address 42.0
+00:00.474	ID:5	uIP started with IP address 172.16.5.0
+00:00.476	ID:5	Starting 'Broadcast example'
+00:00.481	ID:40	MAC 28:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 40.
+00:00.483	ID:42	MAC 2a:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 42.
+00:00.491	ID:40	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.493	ID:42	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.498	ID:40	uIP started with IP address 172.16.40.0
+00:00.499	ID:42	uIP started with IP address 172.16.42.0
+00:00.500	ID:40	Starting 'Broadcast example'
+00:00.502	ID:42	Starting 'Broadcast example'
+00:00.505	ID:35	Rime started with address 35.0
+00:00.514	ID:35	MAC 23:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 35.
+00:00.524	ID:35	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.526	ID:33	Rime started with address 33.0
+00:00.527	ID:12	Rime started with address 12.0
+00:00.531	ID:35	uIP started with IP address 172.16.35.0
+00:00.533	ID:35	Starting 'Broadcast example'
+00:00.536	ID:33	MAC 21:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 33.
+00:00.537	ID:12	MAC 0c:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 12.
+00:00.546	ID:33	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.547	ID:12	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.553	ID:11	Rime started with address 11.0
+00:00.553	ID:33	uIP started with IP address 172.16.33.0
+00:00.553	ID:12	uIP started with IP address 172.16.12.0
+00:00.555	ID:33	Starting 'Broadcast example'
+00:00.556	ID:12	Starting 'Broadcast example'
+00:00.562	ID:11	MAC 0b:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 11.
+00:00.569	ID:19	Rime started with address 19.0
+00:00.571	ID:34	Rime started with address 34.0
+00:00.572	ID:11	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.579	ID:19	MAC 13:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 19.
+00:00.579	ID:11	uIP started with IP address 172.16.11.0
+00:00.581	ID:34	MAC 22:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 34.
+00:00.581	ID:11	Starting 'Broadcast example'
+00:00.585	ID:39	Rime started with address 39.0
+00:00.588	ID:19	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.591	ID:34	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.595	ID:39	MAC 27:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 39.
+00:00.595	ID:19	uIP started with IP address 172.16.19.0
+00:00.597	ID:34	uIP started with IP address 172.16.34.0
+00:00.597	ID:19	Starting 'Broadcast example'
+00:00.599	ID:34	Starting 'Broadcast example'
+00:00.604	ID:39	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.611	ID:39	uIP started with IP address 172.16.39.0
+00:00.613	ID:39	Starting 'Broadcast example'
+00:00.623	ID:47	Rime started with address 47.0
+00:00.633	ID:47	MAC 2f:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 47.
+00:00.642	ID:47	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.649	ID:47	uIP started with IP address 172.16.47.0
+00:00.651	ID:47	Starting 'Broadcast example'
+00:00.686	ID:30	Rime started with address 30.0
+00:00.696	ID:30	MAC 1e:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 30.
+00:00.706	ID:30	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.712	ID:30	uIP started with IP address 172.16.30.0
+00:00.715	ID:30	Starting 'Broadcast example'
+00:00.720	ID:3	Rime started with address 3.0
+00:00.730	ID:3	MAC 03:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 3.
+00:00.740	ID:3	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.746	ID:3	uIP started with IP address 172.16.3.0
+00:00.748	ID:3	Starting 'Broadcast example'
+00:00.759	ID:44	Rime started with address 44.0
+00:00.765	ID:1	Rime started with address 1.0
+00:00.769	ID:44	MAC 2c:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 44.
+00:00.774	ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 1.
+00:00.779	ID:44	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.784	ID:1	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.785	ID:21	Rime started with address 21.0
+00:00.786	ID:44	uIP started with IP address 172.16.44.0
+00:00.788	ID:44	Starting 'Broadcast example'
+00:00.791	ID:1	uIP started with IP address 172.16.1.0
+00:00.793	ID:1	Starting 'Broadcast example'
+00:00.795	ID:21	MAC 15:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 21.
+00:00.805	ID:21	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.811	ID:21	uIP started with IP address 172.16.21.0
+00:00.813	ID:21	Starting 'Broadcast example'
+00:00.825	ID:20	Rime started with address 20.0
+00:00.834	ID:20	MAC 14:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 20.
+00:00.844	ID:20	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.851	ID:20	uIP started with IP address 172.16.20.0
+00:00.853	ID:20	Starting 'Broadcast example'
+00:00.856	ID:15	Rime started with address 15.0
+00:00.865	ID:15	MAC 0f:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 15.
+00:00.870	ID:38	Rime started with address 38.0
+00:00.875	ID:15	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.880	ID:38	MAC 26:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 38.
+00:00.882	ID:15	uIP started with IP address 172.16.15.0
+00:00.884	ID:15	Starting 'Broadcast example'
+00:00.890	ID:38	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.895	ID:26	Rime started with address 26.0
+00:00.896	ID:38	uIP started with IP address 172.16.38.0
+00:00.897	ID:18	Rime started with address 18.0
+00:00.899	ID:38	Starting 'Broadcast example'
+00:00.905	ID:26	MAC 1a:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 26.
+00:00.905	ID:13	Rime started with address 13.0
+00:00.907	ID:18	MAC 12:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 18.
+00:00.915	ID:26	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.915	ID:13	MAC 0d:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 13.
+00:00.916	ID:18	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.921	ID:26	uIP started with IP address 172.16.26.0
+00:00.923	ID:18	uIP started with IP address 172.16.18.0
+00:00.923	ID:26	Starting 'Broadcast example'
+00:00.924	ID:13	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.925	ID:18	Starting 'Broadcast example'
+00:00.930	ID:31	Rime started with address 31.0
+00:00.931	ID:13	uIP started with IP address 172.16.13.0
+00:00.933	ID:48	Rime started with address 48.0
+00:00.933	ID:13	Starting 'Broadcast example'
+00:00.940	ID:49	Rime started with address 49.0
+00:00.940	ID:31	MAC 1f:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 31.
+00:00.942	ID:48	MAC 30:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 48.
+00:00.949	ID:49	MAC 31:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 49.
+00:00.950	ID:31	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.952	ID:48	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.957	ID:31	uIP started with IP address 172.16.31.0
+00:00.959	ID:31	Starting 'Broadcast example'
+00:00.959	ID:48	uIP started with IP address 172.16.48.0
+00:00.959	ID:49	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.961	ID:48	Starting 'Broadcast example'
+00:00.966	ID:49	uIP started with IP address 172.16.49.0
+00:00.968	ID:49	Starting 'Broadcast example'
+00:00.973	ID:36	Rime started with address 36.0
+00:00.978	ID:41	Rime started with address 41.0
+00:00.983	ID:36	MAC 24:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 36.
+00:00.988	ID:41	MAC 29:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 41.
+00:00.992	ID:14	Rime started with address 14.0
+00:00.993	ID:36	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.997	ID:7	Rime started with address 7.0
+00:00.998	ID:41	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.000	ID:36	uIP started with IP address 172.16.36.0
+00:01.002	ID:36	Starting 'Broadcast example'
+00:01.002	ID:14	MAC 0e:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 14.
+00:01.005	ID:41	uIP started with IP address 172.16.41.0
+00:01.006	ID:7	MAC 07:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 7.
+00:01.007	ID:41	Starting 'Broadcast example'
+00:01.010	ID:27	Rime started with address 27.0
+00:01.012	ID:14	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.016	ID:7	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.019	ID:14	uIP started with IP address 172.16.14.0
+00:01.020	ID:27	MAC 1b:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 27.
+00:01.021	ID:14	Starting 'Broadcast example'
+00:01.023	ID:7	uIP started with IP address 172.16.7.0
+00:01.025	ID:7	Starting 'Broadcast example'
+00:01.030	ID:27	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.036	ID:27	uIP started with IP address 172.16.27.0
+00:01.039	ID:27	Starting 'Broadcast example'
+00:01.051	ID:28	Rime started with address 28.0
+00:01.054	ID:4	Rime started with address 4.0
+00:01.059	ID:43	Rime started with address 43.0
+00:01.061	ID:28	MAC 1c:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 28.
+00:01.063	ID:4	MAC 04:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 4.
+00:01.068	ID:43	MAC 2b:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 43.
+00:01.070	ID:28	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.073	ID:4	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.076	ID:37	Rime started with address 37.0
+00:01.077	ID:28	uIP started with IP address 172.16.28.0
+00:01.078	ID:43	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.079	ID:28	Starting 'Broadcast example'
+00:01.079	ID:4	uIP started with IP address 172.16.4.0
+00:01.082	ID:4	Starting 'Broadcast example'
+00:01.085	ID:43	uIP started with IP address 172.16.43.0
+00:01.085	ID:37	MAC 25:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 37.
+00:01.087	ID:43	Starting 'Broadcast example'
+00:01.095	ID:37	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.102	ID:37	uIP started with IP address 172.16.37.0
+00:01.104	ID:37	Starting 'Broadcast example'
+00:01.115	ID:46	Rime started with address 46.0
+00:01.122	ID:32	Rime started with address 32.0
+00:01.125	ID:46	MAC 2e:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 46.
+00:01.132	ID:32	MAC 20:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 32.
+00:01.135	ID:46	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.136	ID:25	Rime started with address 25.0
+00:01.141	ID:46	uIP started with IP address 172.16.46.0
+00:01.142	ID:32	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.143	ID:9	Rime started with address 9.0
+00:01.143	ID:46	Starting 'Broadcast example'
+00:01.146	ID:25	MAC 19:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 25.
+00:01.148	ID:32	uIP started with IP address 172.16.32.0
+00:01.150	ID:32	Starting 'Broadcast example'
+00:01.152	ID:9	MAC 09:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 9.
+00:01.156	ID:25	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.162	ID:9	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.163	ID:25	uIP started with IP address 172.16.25.0
+00:01.165	ID:25	Starting 'Broadcast example'
+00:01.168	ID:9	uIP started with IP address 172.16.9.0
+00:01.171	ID:9	Starting 'Broadcast example'
+00:01.184	ID:16	Rime started with address 16.0
+00:01.194	ID:16	MAC 10:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 16.
+00:01.204	ID:16	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.210	ID:16	uIP started with IP address 172.16.16.0
+00:01.213	ID:16	Starting 'Broadcast example'
+00:01.229	ID:22	Rime started with address 22.0
+00:01.230	ID:2	Rime started with address 2.0
+00:01.235	ID:23	Rime started with address 23.0
+00:01.239	ID:22	MAC 16:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 22.
+00:01.239	ID:2	MAC 02:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 2.
+00:01.245	ID:23	MAC 17:00:00:00:00:00:00:00 Contiki-3.x-2689-gc9deeb4 started. Node id is set to 23.
+00:01.248	ID:22	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.249	ID:2	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.255	ID:23	nullsec CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.255	ID:22	uIP started with IP address 172.16.22.0
+00:01.255	ID:2	uIP started with IP address 172.16.2.0
+00:01.257	ID:22	Starting 'Broadcast example'
+00:01.258	ID:2	Starting 'Broadcast example'
+00:01.261	ID:23	uIP started with IP address 172.16.23.0
+00:01.263	ID:23	Starting 'Broadcast example'
+01:00.792	ID:1	Master initiated.
+01:01.801	ID:1	Notification from node 1, my level is 0
+01:02.993	ID:2	Notification from node 2, my level is 5
+01:03.991	ID:3	Notification from node 3, my level is 4
+01:04.981	ID:4	Notification from node 4, my level is 3
+01:06.071	ID:5	Notification from node 5, my level is 4
+01:07.053	ID:6	Notification from node 6, my level is 5
+01:08.010	ID:7	Notification from node 7, my level is 6
+01:08.929	ID:8	Notification from node 8, my level is 5
+01:09.914	ID:9	Notification from node 9, my level is 4
+01:10.983	ID:10	Notification from node 10, my level is 3
+01:11.925	ID:11	Notification from node 11, my level is 2
+01:12.986	ID:12	Notification from node 12, my level is 3
+01:13.926	ID:13	Notification from node 13, my level is 4
+01:14.959	ID:14	Notification from node 14, my level is 5
+01:15.908	ID:15	Notification from node 15, my level is 4
+01:16.854	ID:16	Notification from node 16, my level is 3
+01:17.815	ID:17	Notification from node 17, my level is 2
+01:18.793	ID:18	Notification from node 18, my level is 1
+01:19.895	ID:19	Notification from node 19, my level is 2
+01:20.893	ID:20	Notification from node 20, my level is 3
+01:21.924	ID:21	Notification from node 21, my level is 4
+01:22.852	ID:22	Notification from node 22, my level is 3
+01:23.811	ID:23	Notification from node 23, my level is 2
+01:24.794	ID:24	Notification from node 24, my level is 1
+01:26.009	ID:25	Notification from node 25, my level is 6
+01:26.791	ID:26	Notification from node 26, my level is 1
+01:27.899	ID:27	Notification from node 27, my level is 2
+01:28.892	ID:28	Notification from node 28, my level is 3
+01:29.928	ID:29	Notification from node 29, my level is 4
+01:30.856	ID:30	Notification from node 30, my level is 3
+01:31.788	ID:31	Notification from node 31, my level is 2
+01:32.792	ID:32	Notification from node 32, my level is 1
+01:33.790	ID:33	Notification from node 33, my level is 2
+01:34.826	ID:34	Notification from node 34, my level is 3
+01:35.901	ID:35	Notification from node 35, my level is 4
+01:36.956	ID:36	Notification from node 36, my level is 5
+01:37.886	ID:37	Notification from node 37, my level is 4
+01:38.868	ID:38	Notification from node 38, my level is 3
+01:39.786	ID:39	Notification from node 39, my level is 2
+01:40.820	ID:40	Notification from node 40, my level is 3
+01:41.898	ID:41	Notification from node 41, my level is 4
+01:42.978	ID:42	Notification from node 42, my level is 5
+01:44.041	ID:43	Notification from node 43, my level is 6
+01:44.905	ID:44	Notification from node 44, my level is 5
+01:45.884	ID:45	Notification from node 45, my level is 4
+01:46.863	ID:46	Notification from node 46, my level is 3
+01:47.886	ID:47	Notification from node 47, my level is 4
+01:48.922	ID:48	Notification from node 48, my level is 5
+01:50.047	ID:49	Notification from node 49, my level is 6
+02:00.792	ID:1	Master initiated.
+02:01.833	ID:1	Notification from node 1, my level is 0
+02:03.165	ID:2	Notification from node 2, my level is 5
+02:04.226	ID:3	Notification from node 3, my level is 4
+02:05.371	ID:4	Notification from node 4, my level is 3
+02:06.470	ID:5	Notification from node 5, my level is 4
+02:07.491	ID:6	Notification from node 6, my level is 5
+02:08.510	ID:7	Notification from node 7, my level is 6
+02:08.960	ID:8	Notification from node 8, my level is 5
+02:09.960	ID:9	Notification from node 9, my level is 4
+02:10.866	ID:10	Notification from node 10, my level is 3
+02:12.488	ID:11	Notification from node 11, my level is 2
+02:13.501	ID:12	Notification from node 12, my level is 3
+02:14.504	ID:13	Notification from node 13, my level is 4
+02:15.591	ID:14	Notification from node 14, my level is 5
+02:15.955	ID:15	Notification from node 15, my level is 4
+02:16.861	ID:16	Notification from node 16, my level is 3
+02:17.823	ID:17	Notification from node 17, my level is 2
+02:18.793	ID:18	Notification from node 18, my level is 1
+02:19.840	ID:19	Notification from node 19, my level is 2
+02:20.971	ID:20	Notification from node 20, my level is 3
+02:22.634	ID:21	Notification from node 21, my level is 4
+02:22.961	ID:22	Notification from node 22, my level is 3
+02:23.819	ID:23	Notification from node 23, my level is 2
+02:24.794	ID:24	Notification from node 24, my level is 1
+02:26.048	ID:25	Notification from node 25, my level is 6
+02:26.791	ID:26	Notification from node 26, my level is 1
+02:27.844	ID:27	Notification from node 27, my level is 2
+02:28.971	ID:28	Notification from node 28, my level is 3
+02:30.069	ID:29	Notification from node 29, my level is 4
+02:30.910	ID:30	Notification from node 30, my level is 3
+02:31.819	ID:31	Notification from node 31, my level is 2
+02:32.792	ID:32	Notification from node 32, my level is 1
+02:33.829	ID:33	Notification from node 33, my level is 2
+02:34.967	ID:34	Notification from node 34, my level is 3
+02:36.049	ID:35	Notification from node 35, my level is 4
+02:36.947	ID:36	Notification from node 36, my level is 5
+02:37.933	ID:37	Notification from node 37, my level is 4
+02:38.907	ID:38	Notification from node 38, my level is 3
+02:39.825	ID:39	Notification from node 39, my level is 2
+02:40.945	ID:40	Notification from node 40, my level is 3
+02:42.023	ID:41	Notification from node 41, my level is 4
+02:43.018	ID:42	Notification from node 42, my level is 5
+02:44.095	ID:43	Notification from node 43, my level is 6
+02:44.952	ID:44	Notification from node 44, my level is 5
+02:45.931	ID:45	Notification from node 45, my level is 4
+02:46.941	ID:46	Notification from node 46, my level is 3
+02:47.972	ID:47	Notification from node 47, my level is 4
+02:49.016	ID:48	Notification from node 48, my level is 5
+02:50.086	ID:49	Notification from node 49, my level is 6
+03:00.792	ID:1	Master initiated.
+03:01.810	ID:1	Notification from node 1, my level is 0
+03:03.071	ID:2	Notification from node 2, my level is 5
+03:03.999	ID:3	Notification from node 3, my level is 4
+03:05.090	ID:4	Notification from node 4, my level is 3
+03:06.227	ID:5	Notification from node 5, my level is 4
+03:07.280	ID:6	Notification from node 6, my level is 5
+03:08.307	ID:7	Notification from node 7, my level is 6
+03:08.992	ID:8	Notification from node 8, my level is 5
+03:10.070	ID:9	Notification from node 9, my level is 4
+03:10.882	ID:10	Notification from node 10, my level is 3
+03:12.019	ID:11	Notification from node 11, my level is 2
+03:13.126	ID:12	Notification from node 12, my level is 3
+03:14.262	ID:13	Notification from node 13, my level is 4
+03:15.279	ID:14	Notification from node 14, my level is 5
+03:15.924	ID:15	Notification from node 15, my level is 4
+03:16.854	ID:16	Notification from node 16, my level is 3
+03:17.799	ID:17	Notification from node 17, my level is 2
+03:18.793	ID:18	Notification from node 18, my level is 1
+03:20.277	ID:19	Notification from node 19, my level is 2
+03:21.299	ID:20	Notification from node 20, my level is 3
+03:22.377	ID:21	Notification from node 21, my level is 4
+03:22.852	ID:22	Notification from node 22, my level is 3
+03:23.795	ID:23	Notification from node 23, my level is 2
+03:24.794	ID:24	Notification from node 24, my level is 1
+03:26.056	ID:25	Notification from node 25, my level is 6
+03:26.791	ID:26	Notification from node 26, my level is 1
+03:28.399	ID:27	Notification from node 27, my level is 2
+03:29.353	ID:28	Notification from node 28, my level is 3
+03:29.858	ID:29	Notification from node 29, my level is 4
+03:30.832	ID:30	Notification from node 30, my level is 3
+03:31.795	ID:31	Notification from node 31, my level is 2
+03:32.792	ID:32	Notification from node 32, my level is 1
+03:33.868	ID:33	Notification from node 33, my level is 2
+03:35.358	ID:34	Notification from node 34, my level is 3
+03:36.229	ID:35	Notification from node 35, my level is 4
+03:36.877	ID:36	Notification from node 36, my level is 5
+03:37.831	ID:37	Notification from node 37, my level is 4
+03:38.829	ID:38	Notification from node 38, my level is 3
+03:39.848	ID:39	Notification from node 39, my level is 2
+03:40.883	ID:40	Notification from node 40, my level is 3
+03:41.929	ID:41	Notification from node 41, my level is 4
+03:43.119	ID:42	Notification from node 42, my level is 5
+03:44.010	ID:43	Notification from node 43, my level is 6
+03:44.890	ID:44	Notification from node 44, my level is 5
+03:45.829	ID:45	Notification from node 45, my level is 4
+03:46.879	ID:46	Notification from node 46, my level is 3
+03:47.949	ID:47	Notification from node 47, my level is 4
+03:49.000	ID:48	Notification from node 48, my level is 5
+03:50.078	ID:49	Notification from node 49, my level is 6
+04:00.792	ID:1	Master initiated.
+04:01.825	ID:1	Notification from node 1, my level is 0
+04:02.922	ID:2	Notification from node 2, my level is 5
+04:03.874	ID:3	Notification from node 3, my level is 4
+04:04.871	ID:4	Notification from node 4, my level is 3
+04:05.891	ID:5	Notification from node 5, my level is 4
+04:06.897	ID:6	Notification from node 6, my level is 5
+04:07.963	ID:7	Notification from node 7, my level is 6
+04:08.929	ID:8	Notification from node 8, my level is 5
+04:09.875	ID:9	Notification from node 9, my level is 4
+04:10.874	ID:10	Notification from node 10, my level is 3
+04:11.824	ID:11	Notification from node 11, my level is 2
+04:12.876	ID:12	Notification from node 12, my level is 3
+04:13.926	ID:13	Notification from node 13, my level is 4
+04:15.107	ID:14	Notification from node 14, my level is 5
+04:15.924	ID:15	Notification from node 15, my level is 4
+04:16.901	ID:16	Notification from node 16, my level is 3
+04:17.830	ID:17	Notification from node 17, my level is 2
+04:18.793	ID:18	Notification from node 18, my level is 1
+04:19.824	ID:19	Notification from node 19, my level is 2
+04:20.963	ID:20	Notification from node 20, my level is 3
+04:22.017	ID:21	Notification from node 21, my level is 4
+04:22.899	ID:22	Notification from node 22, my level is 3
+04:23.865	ID:23	Notification from node 23, my level is 2
+04:24.794	ID:24	Notification from node 24, my level is 1
+04:26.001	ID:25	Notification from node 25, my level is 6
+04:26.791	ID:26	Notification from node 26, my level is 1
+04:27.859	ID:27	Notification from node 27, my level is 2
+04:29.103	ID:28	Notification from node 28, my level is 3
+04:29.905	ID:29	Notification from node 29, my level is 4
+04:30.903	ID:30	Notification from node 30, my level is 3
+04:31.811	ID:31	Notification from node 31, my level is 2
+04:32.792	ID:32	Notification from node 32, my level is 1
+04:33.813	ID:33	Notification from node 33, my level is 2
+04:34.936	ID:34	Notification from node 34, my level is 3
+04:36.002	ID:35	Notification from node 35, my level is 4
+04:36.963	ID:36	Notification from node 36, my level is 5
+04:37.956	ID:37	Notification from node 37, my level is 4
+04:38.915	ID:38	Notification from node 38, my level is 3
+04:39.809	ID:39	Notification from node 39, my level is 2
+04:40.914	ID:40	Notification from node 40, my level is 3
+04:41.945	ID:41	Notification from node 41, my level is 4
+04:43.041	ID:42	Notification from node 42, my level is 5
+04:43.970	ID:43	Notification from node 43, my level is 6
+04:45.015	ID:44	Notification from node 44, my level is 5
+04:45.954	ID:45	Notification from node 45, my level is 4
+04:46.910	ID:46	Notification from node 46, my level is 3
+04:47.941	ID:47	Notification from node 47, my level is 4
+04:49.032	ID:48	Notification from node 48, my level is 5
+04:50.054	ID:49	Notification from node 49, my level is 6
+05:00.792	ID:1	Master initiated.
+05:01.801	ID:1	Notification from node 1, my level is 0
+05:03.094	ID:2	Notification from node 2, my level is 5
+05:03.976	ID:3	Notification from node 3, my level is 4
+05:04.950	ID:4	Notification from node 4, my level is 3
+05:05.977	ID:5	Notification from node 5, my level is 4
+05:07.022	ID:6	Notification from node 6, my level is 5
+05:08.127	ID:7	Notification from node 7, my level is 6
+05:09.117	ID:8	Notification from node 8, my level is 5
+05:10.023	ID:9	Notification from node 9, my level is 4
+05:10.952	ID:10	Notification from node 10, my level is 3
+05:11.894	ID:11	Notification from node 11, my level is 2
+05:12.954	ID:12	Notification from node 12, my level is 3
+05:14.043	ID:13	Notification from node 13, my level is 4
+05:15.076	ID:14	Notification from node 14, my level is 5
+05:16.111	ID:15	Notification from node 15, my level is 4
+05:16.995	ID:16	Notification from node 16, my level is 3
+05:17.901	ID:17	Notification from node 17, my level is 2
+05:18.793	ID:18	Notification from node 18, my level is 1
+05:19.895	ID:19	Notification from node 19, my level is 2
+05:20.979	ID:20	Notification from node 20, my level is 3
+05:22.040	ID:21	Notification from node 21, my level is 4
+05:23.203	ID:22	Notification from node 22, my level is 3
+05:24.131	ID:23	Notification from node 23, my level is 2
+05:24.794	ID:24	Notification from node 24, my level is 1
+05:26.220	ID:25	Notification from node 25, my level is 6
+05:26.791	ID:26	Notification from node 26, my level is 1
+05:27.899	ID:27	Notification from node 27, my level is 2
+05:29.017	ID:28	Notification from node 28, my level is 3
+05:30.249	ID:29	Notification from node 29, my level is 4
+05:31.207	ID:30	Notification from node 30, my level is 3
+05:31.788	ID:31	Notification from node 31, my level is 2
+05:32.792	ID:32	Notification from node 32, my level is 1
+05:33.790	ID:33	Notification from node 33, my level is 2
+05:34.920	ID:34	Notification from node 34, my level is 3
+05:36.057	ID:35	Notification from node 35, my level is 4
+05:37.291	ID:36	Notification from node 36, my level is 5
+05:38.253	ID:37	Notification from node 37, my level is 4
+05:38.837	ID:38	Notification from node 38, my level is 3
+05:39.786	ID:39	Notification from node 39, my level is 2
+05:40.836	ID:40	Notification from node 40, my level is 3
+05:41.859	ID:41	Notification from node 41, my level is 4
+05:42.893	ID:42	Notification from node 42, my level is 5
+05:44.369	ID:43	Notification from node 43, my level is 6
+05:44.858	ID:44	Notification from node 44, my level is 5
+05:45.837	ID:45	Notification from node 45, my level is 4
+05:46.832	ID:46	Notification from node 46, my level is 3
+05:47.831	ID:47	Notification from node 47, my level is 4
+05:48.837	ID:48	Notification from node 48, my level is 5
+05:49.836	ID:49	Notification from node 49, my level is 6
+06:00.792	ID:1	Master initiated.
+06:01.801	ID:1	Notification from node 1, my level is 0
+06:02.915	ID:2	Notification from node 2, my level is 5
+06:03.882	ID:3	Notification from node 3, my level is 4
+06:04.965	ID:4	Notification from node 4, my level is 3
+06:05.969	ID:5	Notification from node 5, my level is 4
+06:06.991	ID:6	Notification from node 6, my level is 5
+06:08.049	ID:7	Notification from node 7, my level is 6
+06:08.914	ID:8	Notification from node 8, my level is 5
+06:09.812	ID:9	Notification from node 9, my level is 4
+06:10.866	ID:10	Notification from node 10, my level is 3
+06:11.902	ID:11	Notification from node 11, my level is 2
+06:12.931	ID:12	Notification from node 12, my level is 3
+06:13.981	ID:13	Notification from node 13, my level is 4
+06:14.990	ID:14	Notification from node 14, my level is 5
+06:15.807	ID:15	Notification from node 15, my level is 4
+06:16.807	ID:16	Notification from node 16, my level is 3
+06:17.792	ID:17	Notification from node 17, my level is 2
+06:18.793	ID:18	Notification from node 18, my level is 1
+06:19.902	ID:19	Notification from node 19, my level is 2
+06:20.877	ID:20	Notification from node 20, my level is 3
+06:21.978	ID:21	Notification from node 21, my level is 4
+06:22.805	ID:22	Notification from node 22, my level is 3
+06:23.787	ID:23	Notification from node 23, my level is 2
+06:24.794	ID:24	Notification from node 24, my level is 1
+06:25.985	ID:25	Notification from node 25, my level is 6
+06:26.791	ID:26	Notification from node 26, my level is 1
+06:27.875	ID:27	Notification from node 27, my level is 2
+06:28.877	ID:28	Notification from node 28, my level is 3
+06:29.819	ID:29	Notification from node 29, my level is 4
+06:30.809	ID:30	Notification from node 30, my level is 3
+06:31.967	ID:31	Notification from node 31, my level is 2
+06:32.792	ID:32	Notification from node 32, my level is 1
+06:33.876	ID:33	Notification from node 33, my level is 2
+06:34.881	ID:34	Notification from node 34, my level is 3
+06:35.901	ID:35	Notification from node 35, my level is 4
+06:36.893	ID:36	Notification from node 36, my level is 5
+06:37.909	ID:37	Notification from node 37, my level is 4
+06:38.892	ID:38	Notification from node 38, my level is 3
+06:39.887	ID:39	Notification from node 39, my level is 2
+06:40.891	ID:40	Notification from node 40, my level is 3
+06:41.898	ID:41	Notification from node 41, my level is 4
+06:42.908	ID:42	Notification from node 42, my level is 5
+06:43.892	ID:43	Notification from node 43, my level is 6
+06:44.983	ID:44	Notification from node 44, my level is 5
+06:45.892	ID:45	Notification from node 45, my level is 4
+06:46.886	ID:46	Notification from node 46, my level is 3
+06:47.886	ID:47	Notification from node 47, my level is 4
+06:48.962	ID:48	Notification from node 48, my level is 5
+06:49.969	ID:49	Notification from node 49, my level is 6

@@ -1,0 +1,412 @@
+/*****************seed20node50********************/
+
+
+New round
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	0 seconde	7 ms
+The delay is  	0 minutes	0 seconde	12 ms
+The delay is  	0 minutes	0 seconde	1 ms
+
+The average delay is 1.88 seconde 23.9 ms
+
+The PDR is : 100.0
+
+we miss 0 node 
+
+
+New round
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	5 seconde	28 ms
+The delay is  	0 minutes	5 seconde	28 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	0 seconde	20 ms
+The delay is  	0 minutes	0 seconde	1 ms
+
+The average delay is 2.6 seconde 25.578 ms
+
+The PDR is : 100.0
+
+we miss 0 node 
+
+
+New round
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	0 seconde	1 ms
+
+The average delay is 2.4 seconde 25.47156 ms
+
+The PDR is : 100.0
+
+we miss 0 node 
+
+
+New round
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	0 seconde	1 ms
+
+The average delay is 2.1 seconde 25.1694312 ms
+
+The PDR is : 100.0
+
+we miss 0 node 
+
+
+New round
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	0 seconde	12 ms
+The delay is  	0 minutes	0 seconde	1 ms
+
+The average delay is 2.32 seconde 25.163388624 ms
+
+The PDR is : 100.0
+
+we miss 0 node 
+
+
+New round
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	0 seconde	1 ms
+
+The average delay is 1.92 seconde 24.9832677725 ms
+
+The PDR is : 100.0
+
+we miss 0 node 
+
+
+New round
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	4 seconde	27 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	3 seconde	26 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	2 seconde	25 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	1 seconde	24 ms
+The delay is  	0 minutes	0 seconde	1 ms
+
+/////////////////////////Average of the simulation////////////////////////
+Average Delay = 1.88857142857 seconde 21.4665210852 ms
+Average PDR = 85.7142857143
